@@ -1,0 +1,116 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+b-Module-GE/_model2.igs -text
+b-Module-GE/_model2.stp -text
+"b-Module-NX/0805 Amber.prt" -text
+"b-Module-NX/0805 Green.prt" -text
+"b-Module-NX/0805 Red.prt" -text
+"b-Module-NX/0805 Red_1.prt" -text
+"b-Module-NX/0805 Red_2.prt" -text
+"b-Module-NX/0805 Red_3.prt" -text
+"b-Module-NX/22way PCB Header.prt" -text
+"b-Module-NX/3x4x2mm - 2 Pad.prt" -text
+"b-Module-NX/Anode Bottom.prt" -text
+"b-Module-NX/Anode Bottom_1.prt" -text
+"b-Module-NX/Anode Bottom_2.prt" -text
+b-Module-NX/Anode.prt -text
+b-Module-NX/Anode_1.prt -text
+b-Module-NX/Anode_2.prt -text
+b-Module-NX/Base.prt -text
+b-Module-NX/Base_1.prt -text
+b-Module-NX/Base_2.prt -text
+b-Module-NX/Body.prt -text
+b-Module-NX/Body_1.prt -text
+b-Module-NX/Body_2.prt -text
+b-Module-NX/C0402_035.prt -text
+b-Module-NX/C0402_035_1.prt -text
+b-Module-NX/C0402_035_2.prt -text
+b-Module-NX/C0402_035_3.prt -text
+b-Module-NX/C0402_035_4.prt -text
+b-Module-NX/C0402_035_5.prt -text
+b-Module-NX/C0402_035_6.prt -text
+b-Module-NX/C0402_035_7.prt -text
+b-Module-NX/C0402_035_8.prt -text
+b-Module-NX/C0402_035_9.prt -text
+b-Module-NX/C1206_120.prt -text
+b-Module-NX/C1206_120_1.prt -text
+b-Module-NX/C1206_120_2.prt -text
+b-Module-NX/C1206_120_3.prt -text
+"b-Module-NX/Cathode Bottom.prt" -text
+"b-Module-NX/Cathode Bottom_1.prt" -text
+"b-Module-NX/Cathode Bottom_2.prt" -text
+b-Module-NX/Cathode.prt -text
+b-Module-NX/Cathode_1.prt -text
+b-Module-NX/Cathode_2.prt -text
+b-Module-NX/DO220AA.prt -text
+"b-Module-NX/ESP-S3-WROOM_via v3(镜像).prt" -text
+"b-Module-NX/ESP-S3-WROOM_via v3.prt" -text
+b-Module-NX/ESP32-S3-WROOM.prt -text
+"b-Module-NX/ESP32-S3-WROOM_body v12.prt" -text
+"b-Module-NX/ESP32-S3-WROOM_shell v11.prt" -text
+b-Module-NX/Light.prt -text
+b-Module-NX/Light_1.prt -text
+b-Module-NX/Light_2.prt -text
+b-Module-NX/PCB.prt -text
+"b-Module-NX/Part 1.prt" -text
+"b-Module-NX/Part 10.prt" -text
+"b-Module-NX/Part 11.prt" -text
+"b-Module-NX/Part 12.prt" -text
+"b-Module-NX/Part 13.prt" -text
+"b-Module-NX/Part 14.prt" -text
+"b-Module-NX/Part 15.prt" -text
+"b-Module-NX/Part 16.prt" -text
+"b-Module-NX/Part 17.prt" -text
+"b-Module-NX/Part 18.prt" -text
+"b-Module-NX/Part 1_1.prt" -text
+"b-Module-NX/Part 1_2.prt" -text
+"b-Module-NX/Part 1_3.prt" -text
+"b-Module-NX/Part 2.prt" -text
+"b-Module-NX/Part 2_1.prt" -text
+"b-Module-NX/Part 2_2.prt" -text
+"b-Module-NX/Part 2_3.prt" -text
+"b-Module-NX/Part 3.prt" -text
+"b-Module-NX/Part 3_1.prt" -text
+"b-Module-NX/Part 3_2.prt" -text
+"b-Module-NX/Part 3_3.prt" -text
+"b-Module-NX/Part 4.prt" -text
+"b-Module-NX/Part 4_1.prt" -text
+"b-Module-NX/Part 5.prt" -text
+"b-Module-NX/Part 5_1.prt" -text
+"b-Module-NX/Part 6.prt" -text
+"b-Module-NX/Part 6_1.prt" -text
+"b-Module-NX/Part 7.prt" -text
+"b-Module-NX/Part 8.prt" -text
+"b-Module-NX/Part 9.prt" -text
+"b-Module-NX/QFN-16 (4x4x0.9).prt" -text
+"b-Module-NX/QFN-16 (4x4x0.9)_1.prt" -text
+b-Module-NX/R0402_detailed.prt -text
+b-Module-NX/R0402_detailed_1.prt -text
+b-Module-NX/R0402_detailed_10.prt -text
+b-Module-NX/R0402_detailed_11.prt -text
+b-Module-NX/R0402_detailed_12.prt -text
+b-Module-NX/R0402_detailed_13.prt -text
+b-Module-NX/R0402_detailed_14.prt -text
+b-Module-NX/R0402_detailed_15.prt -text
+b-Module-NX/R0402_detailed_16.prt -text
+b-Module-NX/R0402_detailed_17.prt -text
+b-Module-NX/R0402_detailed_18.prt -text
+b-Module-NX/R0402_detailed_19.prt -text
+b-Module-NX/R0402_detailed_2.prt -text
+b-Module-NX/R0402_detailed_20.prt -text
+b-Module-NX/R0402_detailed_21.prt -text
+b-Module-NX/R0402_detailed_3.prt -text
+b-Module-NX/R0402_detailed_4.prt -text
+b-Module-NX/R0402_detailed_5.prt -text
+b-Module-NX/R0402_detailed_6.prt -text
+b-Module-NX/R0402_detailed_7.prt -text
+b-Module-NX/R0402_detailed_8.prt -text
+b-Module-NX/R0402_detailed_9.prt -text
+b-Module-NX/SOT-223.prt -text
+b-Module-NX/SOT-23.prt -text
+"b-Module-NX/USB Connector Type C female 6pin.prt" -text
+b-Module-NX/WS2812B.prt -text
+b-Module-NX/_model1.prt -text
+b-Module-NX/_model2.prt -text
